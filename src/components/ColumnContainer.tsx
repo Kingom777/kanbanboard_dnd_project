@@ -37,6 +37,7 @@ const ColumnContainer = (prpos: Props) => {
     attributes,
     listeners,
     transform,
+    
     transition,
     isDragging,
   } = useSortable({
