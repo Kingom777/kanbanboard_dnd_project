@@ -11,6 +11,7 @@ interface Prpos {
 }
 
 
+
 const Taskscard = ({ task, deletetask,updateTask }: Prpos) => {
   const [isMouseover, setisMouseover] = useState(false);
   const [editMode, seteditMode] = useState(false);

@@ -46,7 +46,10 @@ const KanbanBord = () => {
         onDragEnd={onDragEnd}
         onDragOver={onDragover}
       >
-        <div className="m-auto flex gap-4 ">
+        <div className="m-auto flex gap-4 
+        
+        
+        ">
           <div className="flex gap-4">
             <SortableContext items={columnsId}>
               {columns.map((col) => (
